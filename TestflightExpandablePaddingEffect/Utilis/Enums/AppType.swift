@@ -105,8 +105,4 @@ enum AppType: String, CaseIterable {
             return "Verify news feed performance, profile updates, and group interactions."
         }
     }
-    
-    var imageColors: [UIColor] {
-        UIImage(named: iconName)!.dominantColors()
-    }
 }
