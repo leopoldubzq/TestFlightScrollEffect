@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct MainScreen<DestinationHandler: DestinationHandlable>: View {
+struct MainScreen<DestinationHandler: DestinationNavigable>: View {
     
     @StateObject private var destinationHandler: DestinationHandler
     
